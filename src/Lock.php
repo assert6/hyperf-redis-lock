@@ -3,7 +3,7 @@
 namespace Lysice\HyperfRedisLock;
 
 use Hyperf\Stringable\Str;
-use Hyperf\Support\InteractsWithTime;
+use Hyperf\Support\Traits\InteractsWithTime;
 
 abstract class Lock implements LockContract
 {
